@@ -3,7 +3,7 @@ var data = [{"pinyin": "Pronunciation", "word": "Word", "english": "Definition"}
 var i=0
 
 function tryme(){
-		i = Math.florr(Math.random() * data.lengh);
+		i = Math.floor(Math.random() * data.lengh);
 	document.getElementById("chinese").innerHTML=data[i]['chinese'];
 	document.getElementById("english").innerHTML="reveal";
 	document.getElementById("pinyin").innerHTML="reveal";

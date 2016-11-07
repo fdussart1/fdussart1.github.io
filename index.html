@@ -1,10 +1,17 @@
 <!DOCTYPE html>
-<html>
-<body>
-<BODY BGCOLOR="6D8EE9">
-<BODY TEXT="FFFFFF">
-<center><FONT face="helvetica"><h1>Hello World</h1>
-<h2>Welcome on my great website</h2>
-<p>My name is Francois Dussart.</p></center></FONT>
-</body>
+<html lang=eng-us>
+    <head>
+        <meta charset=utf-8>
+        <title>an UTSEUS flashcard app</title>
+        <script src="JavaHSKAPP.js"></script>
+        <link rel="stylesheet" href="Website_HSK.css" />
+    </head>
+    <body>
+        <div id="chinese">chinese goes here</div>
+        <div id="pinyin" class="hidden" onclick="reveal('pinyin')">reveal
+        </div>
+        <div id=english" class="hidden" onclick="reveal('english')">
+        reveal</div>
+        <input type="button" value="try me" onclick="tryme()" />
+    </body>
 </html>

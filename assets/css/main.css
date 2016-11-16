@@ -2786,19 +2786,19 @@
 			}
 
 			.tiles article:nth-child(6n - 5):before {
-				background-color: #6fc3df;
+				background-color: #cd5c5c;
 			}
 
 			.tiles article:nth-child(6n - 4):before {
-				background-color: #8d82c4;
+				background-color: #fada5e;
 			}
 
 			.tiles article:nth-child(6n - 3):before {
-				background-color: #ec8d81;
+				background-color: #d2b48c;
 			}
 
 			.tiles article:nth-child(6n - 2):before {
-				background-color: #e7b788;
+				background-color: #a9a9a9;
 			}
 
 			.tiles article:nth-child(6n - 1):before {
@@ -2806,7 +2806,7 @@
 			}
 
 			.tiles article:nth-child(6n):before {
-				background-color: #87c5a4;
+				background-color: #dda0dd;
 			}
 
 		@media screen and (max-width: 1280px) {
